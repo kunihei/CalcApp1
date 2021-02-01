@@ -12,8 +12,8 @@ class Car{
     var frontWheel = 0
     var rearWheel = 0
     init(){
-        frontWheel = 2
-        rearWheel = 2
+        frontWheel = 0
+        rearWheel = 0
     }
     
     func drive(){

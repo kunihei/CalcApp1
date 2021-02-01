@@ -13,7 +13,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        carModel.frontWheel = 10
+        carModel.rearWheel = 10
+        
     }
 
     @IBAction func doAction(_ sender: Any) {
