@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         carModel.frontWheel = 10
-        carModel.rearWheel = 10
+        carModel.rearWheel = 20
         
     }
 
