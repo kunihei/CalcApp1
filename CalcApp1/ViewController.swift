@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        carModel.frontWheel = 10
+        carModel.frontWheel = 20
         carModel.rearWheel = 20
         
     }
