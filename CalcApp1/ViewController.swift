@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     @IBAction func doAction(_ sender: Any) {
         
         carModel.drive()
-        carModel.move(toBack: "後ろに行くよ！")
+        carModel.move(toBack: "後ろに行くよ")
         let total = carModel.plusAndMinus(num1: carModel.frontWheel, num2: carModel.rearWheel)
         totalLabel.text = String(total)
     }
