@@ -25,4 +25,10 @@ class Car{
 
     }
     
+    func move(toBack:String){
+        
+        print(toBack)
+        
+    }
+    
 }
