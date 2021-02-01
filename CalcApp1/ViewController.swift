@@ -11,6 +11,10 @@ class ViewController: UIViewController {
 
     var carModel = Car()
     
+    @IBOutlet weak var totalLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,7 +27,8 @@ class ViewController: UIViewController {
         
         carModel.drive()
         carModel.move(toBack: "後ろに行くよ！")
-        
+        let total = carModel.plusAndMinus(num1: carModel.frontWheel, num2: carModel.rearWheel)
+        totalLabel.text = String(total)
     }
     
 }
