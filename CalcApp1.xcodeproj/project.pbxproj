@@ -13,6 +13,7 @@
 		BAC75BEC25C7E36800869D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC75BEA25C7E36800869D27 /* Main.storyboard */; };
 		BAC75BEE25C7E36900869D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC75BED25C7E36900869D27 /* Assets.xcassets */; };
 		BAC75BF125C7E36900869D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC75BEF25C7E36900869D27 /* LaunchScreen.storyboard */; };
+		BAC75BFC25C7E44500869D27 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC75BFB25C7E44500869D27 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BAC75BED25C7E36900869D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAC75BF025C7E36900869D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC75BF225C7E36900869D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC75BFB25C7E44500869D27 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		BAC75BE325C7E36800869D27 /* CalcApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				BAC75BFA25C7E42200869D27 /* Model */,
 				BAC75BE425C7E36800869D27 /* AppDelegate.swift */,
 				BAC75BE625C7E36800869D27 /* SceneDelegate.swift */,
 				BAC75BE825C7E36800869D27 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				BAC75BF225C7E36900869D27 /* Info.plist */,
 			);
 			path = CalcApp1;
+			sourceTree = "<group>";
+		};
+		BAC75BFA25C7E42200869D27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAC75BFB25C7E44500869D27 /* Car.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				BAC75BE925C7E36800869D27 /* ViewController.swift in Sources */,
 				BAC75BE525C7E36800869D27 /* AppDelegate.swift in Sources */,
+				BAC75BFC25C7E44500869D27 /* Car.swift in Sources */,
 				BAC75BE725C7E36800869D27 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhei.CalcApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhei.CalcApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
